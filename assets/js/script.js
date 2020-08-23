@@ -9,7 +9,7 @@ formEl.addEventListener("submit", createTaskHandler);
 
 
   var createTaskHandler = function(event) {
-    
+
     event.preventDefault();
   
     var listItemEl = document.createElement("li");
